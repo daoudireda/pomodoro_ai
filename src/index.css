@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    --background: 222 25% 10%;
+    --foreground: 0 0% 100%;
+    
+    /* Dark theme colors */
+    --gradient-start: 222 25% 10%;
+    --gradient-end: 240 23% 15%;
+    
+    --card: 240 23% 15%;
+    --card-foreground: 0 0% 100%;
+    --popover: 240 23% 15%;
+    --popover-foreground: 0 0% 100%;
+    
+    /* Orange accent */
+    --accent: 24 100% 50%;
+    --accent-foreground: 0 0% 100%;
+    
+    /* Primary (orange) */
+    --primary: 24 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Secondary background */
+    --secondary: 240 23% 15%;
+    --secondary-foreground: 0 0% 100%;
+    
+    --muted: 240 23% 15%;
+    --muted-foreground: 215 20.2% 75.1%;
+    
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 240 23% 20%;
+    --input: 240 23% 20%;
+    --ring: 24 100% 50%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer utilities {
+  .bg-gradient {
+    background: linear-gradient(
+      135deg,
+      #13171f 0%,
+      #1e1e2e 100%
+    );
+  }
+}
